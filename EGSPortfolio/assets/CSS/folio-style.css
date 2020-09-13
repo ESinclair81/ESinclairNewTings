@@ -17,23 +17,32 @@ body {
 }
 
 .hero {
-    width: 50%;
+    width: 100%;
     height: 100px;
+    margin: 5px;
     background-size: cover;
     background-position: center;
     background-color: black;
     position: relative;
 
 }
+/* Hero Style End */
 
 .nav {
     display: flex;
-    padding: 20px;
+    font-size: 20px;
+    font-style: underline;
+    float: right;
+    margin: 0;
+    border: 20px;
   }
 
 nav ul li {
-    display: inline-flex;
-    border: 150px;
+    
+    display: inline;
+    padding: 30px;
+    font-size: 24px;
+
   }
 
 h1 {
@@ -52,7 +61,7 @@ h1 {
 .flex-item {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 65%;
     text-align: center;
     border-radius: 14px; 
     border: 10px solid pink;
@@ -60,18 +69,28 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-image: url();
     background-size: cover;
     background-position: center;
     padding: 20px;
     min-height: 250px;
-    float: right;
+   
+  
 }
+
+.flex-item span {
+   text-align: center; 
+   margin-top: auto; 
+   background-color: grey;
+   padding: 10px;
+  }
 
 .works {
     display: flex;
     flex-direction: column;
-    border: 10px solid purple;
+    border: 10px solid white;
     padding: 10px;
     width: 30%;
 
@@ -81,8 +100,12 @@ h1 {
    align-content: auto; 
    width: 100%;
   }
+ 
   
-.
+.contact-info {
+    display: inline-block;
+    width: 10px;
+}
 footer {
     text-align: center;
     font-size: 16px;
