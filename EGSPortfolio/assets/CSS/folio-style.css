@@ -1,0 +1,17 @@
+/*  This is the Portfolio Style Sheet */
+
+/* Tell browser to fit box sizing calculations */
+* {
+    box-sizing: border-box;
+}
+
+/* Set background colour and remove browser margins */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
