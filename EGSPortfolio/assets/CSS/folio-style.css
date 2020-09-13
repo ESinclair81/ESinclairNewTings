@@ -7,8 +7,8 @@
 
 /* Set background colour and remove browser margins */
 body {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 10px;
     background-color: blueviolet;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
@@ -42,13 +42,14 @@ nav ul li {
     display: inline;
     padding: 30px;
     font-size: 24px;
-
   }
 
 h1 {
     font-weight: bold;
     font-size: 36px;
-    margin: 0;
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: left;
     color: pink;    
 }
@@ -65,25 +66,28 @@ h1 {
 .flex-item {
     display: flex;
     flex-direction: row;
-    width: 40%;
-    height: 10%;
+    width: 27%;
     text-align: center;
     border-radius: 14px; 
     border: 10px solid pink;
     background-color: white;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-between;
+    float: left;
 }
 
 .flex-item span {
    margin-top: auto; 
-   background-color: grey;
-   padding: 50px;
+   margin-left: 20px;
+   background-color: black;
+   padding: 10px;
+   text-align: center;
   }
 
   .section-title {
@@ -92,31 +96,48 @@ h1 {
     color: purple;
     margin-bottom: 35px;
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
     border-right: 3px solid;
   }
 
   .primary-border {
       border-color: purple;
+      padding: 20px;
+  }
+
+  h3 {
+      color:pink;
+      font-size: 20px;   
+      margin: 3px;
+      padding: 2px;
   }
 
   .about-image {
-      width: 30%;
-      height: 30%;
-      padding: 50px;
+      width: 27%;
+      height: 27%;
+      padding: 40px;
+      margin-left:30px;
   }
 
   .about-text {
+      font-size: 18px;
       width: 33%;
       text-align: center;
       float: left;
       padding: 75px;
+      color: purple;
+
+  }
+
+  p {
+      color: purple;
 
   }
 
   .work-images {
     width: 150px;
     height: 150px;
+    border: 3px solid pink;
 }
 
 
