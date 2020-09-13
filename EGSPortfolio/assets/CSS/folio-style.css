@@ -16,13 +16,14 @@ body {
     min-height: 100vh;
 }
 
-header nav {
-    display: flex;
-    margin: 7px 0;
+nav {
+    display: inline-block;
+    margin: 11px 0;
   }
 
-  header nav ul li {
+nav ul li {
     display: inline-flex;
+
   }
 
 header h1 {
@@ -30,3 +31,10 @@ header h1 {
     font-size: 36px;
     margin: 0;
 }
+
+.flex-container {
+    /* Enter your CSS here */
+    display: flex; /* added display for flex box */
+    flex-wrap: wrap; /* added this to tell page to wrap flex boxes */
+    justify-content: space-between;
+  }
