@@ -12,6 +12,21 @@ body {
     background-color: blueviolet;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
+}
+
+header nav {
+    display: flex;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline-flex;
+  }
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
 }
