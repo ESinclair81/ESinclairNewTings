@@ -11,7 +11,7 @@ A website that houses all of my web work and some personal interest items as wel
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+ https://esinclair81.github.io/ESinclairNewTings/
 
 ## Contribution
 Made with ❤️ by E Sinclair
