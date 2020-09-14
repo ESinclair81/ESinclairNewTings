@@ -1,8 +1,10 @@
 /*  This is the Portfolio Style Sheet */
 
 /* Tell browser to fit box sizing calculations */
-* {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 /* Set background colour and remove browser margins */
@@ -16,15 +18,14 @@ body {
     min-height: 100vh;
 }
 
-
-a:hover { color: white; background: pink} 
-.hide {
-    display: none;
+a:hover { color: yellow; background:pink;}   
 }
 
-.work-images:hover + .hide {
-    display: block;
-    color: pink;
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+.work-images:hover  { opacity: 1}
   }  
 
 /* This is the hero style */
@@ -91,20 +92,18 @@ h1 {
 .flex-item {
     display: flex;
     flex-direction: row;
-    width: 27%;
+    width: 23%;
     text-align: center;
     border-radius: 14px; 
-    border: 10px solid pink;
+    border: 7px solid pink;
     background-color: white;
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 10px;
-    justify-content: space-between;
-    float: left;
 }
 
 .flex-item span {
@@ -150,7 +149,6 @@ h1 {
     border: 3px solid pink;
 }
 
-
 .works {
     display: flex;
     flex-direction: column;
@@ -164,8 +162,8 @@ h1 {
       width: 27%;
       height: 27%;
       padding: 40px;
-      margin-left: 200px;
-      margin-right: 100px;
+      margin-left: 50px;
+      margin-right: 30px;
   }
 
   .about-text {
@@ -195,7 +193,6 @@ h1 {
   .li {
     display: inline-block;
 }
-
 
 footer {
     text-align: center;
