@@ -16,6 +16,17 @@ body {
     min-height: 100vh;
 }
 
+
+a:hover { color: white; background: pink} 
+.hide {
+    display: none;
+}
+
+.work-images:hover + .hide {
+    display: block;
+    color: pink;
+  }  
+
 /* This is the hero style */
 
 .hero {
@@ -76,7 +87,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Flex Item Styles */
+/* Flex Item Style */
 .flex-item {
     display: flex;
     flex-direction: row;
@@ -146,14 +157,15 @@ h1 {
     border: 10px solid white;
     padding: 10px;
     width: 30%;
-
+}
 
   /* About Section style */
   .about-image {
       width: 27%;
       height: 27%;
       padding: 40px;
-      margin-left: 110px;
+      margin-left: 200px;
+      margin-right: 100px;
   }
 
   .about-text {
@@ -163,7 +175,6 @@ h1 {
       float: left;
       padding: 75px;
       color: purple;
-
   }
 
 .contact-info {
@@ -183,7 +194,6 @@ h1 {
   
   .li {
     display: inline-block;
-    float: right;
 }
 
 
